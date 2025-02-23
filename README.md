@@ -1,1 +1,1 @@
-https://mohamdkhder.github.io/Full-site/#contact
+https://mohamdkhder.github.io/Full-site
