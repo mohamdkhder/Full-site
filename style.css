@@ -24,7 +24,7 @@ header {
     align-items: center;
     padding: 20px 100px;
     border-bottom: 2px solid #6EACDA;
-    transform: translateY(-100%);
+    /* transform: translateY(-100%); */
     animation: slideDown 0.5s ease-out forwards;
 }
 
@@ -303,11 +303,13 @@ header {
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-title {
     font-size: 1.1em;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .footer-title span {
@@ -348,6 +350,9 @@ header {
     .nav a {
         margin-left: 0px;
         display: table-cell;
+    }
+    .footer {
+        justify-content: center;
     }
 }
 
